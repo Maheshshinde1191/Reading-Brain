@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0.5rem;
+}
+#main{
+    background: url("https://assets-cdn.reedsy.com/discovery/packs/media/discovery-ui/assets/featured-639ad113a8df321711091cc878c88090.svg");
+}
+nav {
+    background-color: antiquewhite;
+}
+.home-main{
+    /* background: url("https://assets-cdn.reedsy.com/discovery/packs/media/discovery-ui/assets/featured-639ad113a8df321711091cc878c88090.svg"); */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.hm-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#featured-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#featured-card{
+    flex-basis: 33.33%;
+    padding: 1rem;
+    border: none;
+}
+
+#testimonial-heading, #featured-heading{
+    margin-top: 1.5rem;
+    text-align: center;
+    padding-bottom: 1rem !important;
+}
+/* #testimonial-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+.testimonial{
+    flex-basis: 33.33%;
+    padding: 1rem;
+}
+
+.testi-person{
+    display: flex;
+    align-items: center;
+}
+.testi-person-img{
+    align-self: flex-start;
+}
+
+.testi-person-img img{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 1rem;
+    vertical-align: middle;
+    border-style: none;
+}
+.testi-person-name{
+    text-align: right;
+}
+
+.testi-text{
+    margin-top: 1rem;
+}
+
+#testimonial-container{
+    
+} 
+.testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.testi-person{
+    display: flex;
+    align-items: center;
+}
+.testi-person-img{
+    align-self: flex-start;
+}
+
+.testi-person-img img{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 1rem;
+    vertical-align: middle;
+    border-style: none;
+}
+.testi-person-name{
+    text-align: right;
+}
+
+.testi-text{
+    margin-top: 1rem;
+} */
