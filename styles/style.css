@@ -3,7 +3,11 @@
     padding: 0;
 }
 body{
-    padding: 0.5rem;
+    padding: 0;
+}
+
+.btn{
+    background-color: #ca7c16;
 }
 
 /* Social Icons */
@@ -32,11 +36,28 @@ body{
 }
 
 nav {
-    background-color: antiquewhite;
+    background: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%), 0 2px 16px 0 rgb(0 0 0 / 5%);
+    font-weight: 500;
+    font-size: 16px;
+}
+.navbar-nav a{
+    color: black;
+    border-bottom: 4px solid transparent;
+}
+.navbar-nav a.active{
+    border-color: #f09f20;
 }
 
 .btn:hover{
-    background-color: #edbe81;
+    background-color: #ce9119;
+}
+.navbar form input{
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+#search-btn{
+    color: white;
 }
 
 .page-main{
@@ -81,7 +102,7 @@ nav {
     height: 185px;
 } */
 
-#testimonial-heading, #featured-heading{
+#testimonial-heading, #featured-heading, #review-heading{
     text-align: center;
     padding-bottom: 1rem !important;
 }
@@ -185,6 +206,29 @@ footer a{
 }
 
 /* contact.html CSS */
-form .btn{
+/* form .btn{
     background-color: #edbe81;
+} */
+
+#contact-form input, #contact-form textarea{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+#contact-container{
+    max-width: 50%;
+}
+
+/* Book Review CSS */
+#review-container{
+    max-width: 50%;
+}
+#review-container h2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.checked{
+    color: #fbbd08;
+}
+.meta i{
+    margin-right: 0.1rem;
 }
