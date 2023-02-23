@@ -7,7 +7,7 @@ body{
 }
 
 /* Social Icons */
-.social-links a{
+.social-links i{
     color: #dc3545;
 }
 .social-fb:hover {
@@ -35,7 +35,11 @@ nav {
     background-color: antiquewhite;
 }
 
-.home-main{
+.btn:hover{
+    background-color: #edbe81;
+}
+
+.page-main{
     /* background: url("https://assets-cdn.reedsy.com/discovery/packs/media/discovery-ui/assets/featured-639ad113a8df321711091cc878c88090.svg"); */
     height: 500px;
     display: flex;
@@ -45,10 +49,18 @@ nav {
     background-position: center;
 }
 
-.hm-content{
+.main-content{
     display: flex;
     flex-direction: column;
     align-items: left;
+    color: black;
+}
+.main-content h1{
+    font-size: 44px;
+    line-height: 1.272;
+}
+.main-content p{
+    font-size: 18px;
 }
 
 #featured-container{
@@ -65,12 +77,11 @@ nav {
     height: 375px;
 }
 
-.featured-card-text{
+/* .featured-card-text{
     height: 185px;
-}
+} */
 
 #testimonial-heading, #featured-heading{
-    margin-top: 1.5rem;
     text-align: center;
     padding-bottom: 1rem !important;
 }
@@ -147,6 +158,33 @@ footer{
     background-color: #d09444;
     color: black;
 }
-a{
-    color: antiquewhite;
+footer a{
+    color: #ffffff;
+}
+.address1{
+    color: #ffffff ;
+}
+
+/* All_Books.html CSS */
+#main-all{
+    background: url('https://assets-cdn.reedsy.com/discovery/packs/media/discovery-ui/assets/map-b12bb69d077f60630d2e52b3addd4332.svg');
+    background-repeat: no-repeat;
+    background-position: center 250px;
+    background-size: 870px;
+}
+@media (min-width: 670px){
+    #main-all {
+        background-position: 310px 64px
+    }
+}
+
+@media (min-width: 1024px){
+#main-all {
+    background-position: 100% 80px;
+}
+}
+
+/* contact.html CSS */
+form .btn{
+    background-color: #edbe81;
 }
