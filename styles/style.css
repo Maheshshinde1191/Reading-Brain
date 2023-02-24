@@ -36,17 +36,18 @@ body{
 }
 
 nav {
-    background: white;
+    background: #f3bd75;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%), 0 2px 16px 0 rgb(0 0 0 / 5%);
     font-weight: 500;
     font-size: 16px;
+    border-radius: 2rem;
 }
 .navbar-nav a{
     color: black;
     border-bottom: 4px solid transparent;
 }
 .navbar-nav a.active{
-    border-color: #f09f20;
+    border-color: white; /*f09f20*/
 }
 
 .btn:hover{
@@ -120,72 +121,6 @@ nav {
     text-align: center;
     padding-bottom: 1rem !important;
 }
-/* #testimonial-container{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 1.5rem;
-}
-.testimonial{
-    flex-basis: 33.33%;
-    padding: 1rem;
-}
-
-.testi-person{
-    display: flex;
-    align-items: center;
-}
-.testi-person-img{
-    align-self: flex-start;
-}
-
-.testi-person-img img{
-    border-radius: 50%;
-    width: 50px;
-    margin-right: 1rem;
-    vertical-align: middle;
-    border-style: none;
-}
-.testi-person-name{
-    text-align: right;
-}
-
-.testi-text{
-    margin-top: 1rem;
-}
-
-#testimonial-container{
-    
-} 
-.testimonial{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1rem;
-}
-
-.testi-person{
-    display: flex;
-    align-items: center;
-}
-.testi-person-img{
-    align-self: flex-start;
-}
-
-.testi-person-img img{
-    border-radius: 50%;
-    width: 50px;
-    margin-right: 1rem;
-    vertical-align: middle;
-    border-style: none;
-}
-.testi-person-name{
-    text-align: right;
-}
-
-.testi-text{
-    margin-top: 1rem;
-} */
 
 
 /* Footer */
@@ -220,18 +155,28 @@ footer a{
 }
 
 /* contact.html CSS */
-/* form .btn{
-    background-color: #edbe81;
-} */
+#contact-form{
+    border-radius: 1rem;
+}
 
 #contact-form input, #contact-form textarea{
     border: 1px solid black;
     border-radius: 0.5rem;
 }
+
 #contact-container{
     max-width: 50%;
 }
-
+#contact-form input::placeholder, #contact-form textarea::placeholder{
+    color: black;
+    font-weight:400;
+}
+#contact-form .btn{
+    color: black;
+}
+#contact-heading{
+    color: black;
+}
 /* Book Review CSS */
 #review-container{
     max-width: 50%;
