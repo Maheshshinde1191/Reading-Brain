@@ -191,3 +191,6 @@ footer a{
 .meta i{
     margin-right: 0.1rem;
 }
+#review-container hr{
+    opacity: 1;
+}
