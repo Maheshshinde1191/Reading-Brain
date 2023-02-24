@@ -60,6 +60,13 @@ nav {
     color: white;
 }
 
+.nav-item{
+    transition: 0.3s;
+}
+.nav-item:hover{
+    transform: scale(1.05);
+}
+
 .page-main{
     /* background: url("https://assets-cdn.reedsy.com/discovery/packs/media/discovery-ui/assets/featured-639ad113a8df321711091cc878c88090.svg"); */
     height: 500px;
