@@ -108,3 +108,7 @@ i {
     text-align: center;
     line-height: 24px;
 }
+
+.team-sektion img{
+    width: -webkit-fill-available;
+}

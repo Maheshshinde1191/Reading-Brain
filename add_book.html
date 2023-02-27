@@ -41,7 +41,7 @@
             <a class="nav-link fw-bold" href="/all_books.html">All Books</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" href="/add_book.html">Add Book Review</a>
+            <a class="nav-link active fw-bold" href="/add_book.html">Add Book Review</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-bold" href="/about.html">About</a>
@@ -58,45 +58,99 @@
     </div>
   </nav>
 
-  <section id="contact" class="contact section-padding">
-    <div id="contact-container" class="container mt-5">
+  <section id="add-book" class="section-padding">
+    <div id="add-book-container" class="container mt-5">
       <div class="row">
         <div class="col-md-12">
           <div class="section-header text-center pb-5">
-            <h2 id="contact-heading">Contact Us</h2>
+            <h2 id="add-book-heading">Add a new Book Review</h2>
             <p></p>
           </div>
         </div>
       </div>
       <div class="row m-0">
         <div class="col-md-12 p-0 pt-4 pb-4">
-          <form id="contact-form" action="#" class="p-4 m-auto">
+          <form id="add-book-form" action="#" class="p-4 m-auto">
             <div class="row">
               <div class="col-md-12">
                 <div class="mb-3">
-                  <input class="form-control" placeholder="Full Name" required="" type="text">
+                    <label for="exampleFormControlInput1" class="form-label">Book Title</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="mb-3">
-                  <input class="form-control" placeholder="Mobile No." required="" type="text">
+                    <label for="exampleFormControlInput1" class="form-label">URL of Book Cover Image</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="mb-3">
-                  <input class="form-control" placeholder="Email" required="" type="email">
+                    <label for="exampleFormControlTextarea1" class="form-label">Book Summary</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="mb-3">
-                  <input class="form-control" placeholder="Subject" required="" type="text">
+                    <label for="exampleFormControlTextarea1" class="form-label">Book Review</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
                 </div>
               </div>
               <div class="col-md-12">
-                <div class="mb-3">
-                  <textarea class="form-control" placeholder="Message" required="" rows="3"></textarea>
+                <label for="exampleFormControlInput1" class="form-label">Rating</label>
+                <div class="mb-3 input-group">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" value="" name="rating" aria-label="Radio button for following text input">
+                    </div>
+                    <label for="">
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                    </label>
                 </div>
-              </div><button class="btn btn-lg btn-block mt-3" type="button">Send Now</button>
+                <div class="mb-3 input-group">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" value="" name="rating" aria-label="Radio button for following text input">
+                    </div>
+                    <label for="">
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                    </label>
+                </div>
+                <div class="mb-3 input-group">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" value="" name="rating" aria-label="Radio button for following text input">
+                    </div>
+                    <label for="">
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                    </label>
+                </div>
+                <div class="mb-3 input-group">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" value="" name="rating" aria-label="Radio button for following text input">
+                    </div>
+                    <label for="">
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                    </label>
+                </div>
+                <div class="mb-3 input-group">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" value="" name="rating" aria-label="Radio button for following text input">
+                    </div>
+                    <label for="">
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                        <i class="fa fa-star checked" aria-hidden="true"></i>
+                    </label>
+                </div>
+                
+              </div>
+              <button class="btn btn-lg btn-block mt-3" type="button">Submit</button>
             </div>
           </form>
         </div>

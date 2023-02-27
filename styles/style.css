@@ -197,3 +197,37 @@ footer a{
 #review-container hr{
     opacity: 1;
 }
+
+
+
+/* Add Book Page CSS */
+#add-book-container{
+    max-width: 50%;
+}
+.input-group-text{
+    background: none;
+    border: none;
+}
+.input-group .checked{
+    background-color: white;
+}
+.input-group-text{
+    padding-left: 0;
+}
+#add-book-form{
+    border-radius: 1rem;
+}
+
+#add-book-form input, #add-book-form textarea{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+#add-book-form .btn{
+    color: black;
+}
+#add-book-heading{
+    color: black;
+}
+#add-book-form label{
+    color: black;
+}
